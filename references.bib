@@ -57,14 +57,6 @@
   year      =  2024
 }
 
-@ARTICLE{Dass2025-nv,
-  title  = "Improving Procedural Skill Explanations via Constrained Generation:
-            A Symbolic-{LLM} Hybrid Architecture",
-  author = "Dass, Rahul and Bowlin, Thomas and Li, Zebing and Jin, Xiao and
-            Goel, Ashok",
-  year   =  2025
-}
-
 @INPROCEEDINGS{Jamet2024-oq,
   title     = "Evaluation and simplification of text difficulty using {LLMs} in
                the context of recommending texts in French to facilitate
@@ -148,24 +140,6 @@
   pages       = "152--157",
   month       =  mar,
   year        =  2025
-}
-
-@ARTICLE{Zhao2025-mo,
-  title     = "Technical Implementation of Large Language Models in Educational
-               Scenarios: A Case Study of {DeepSeek}",
-  author    = "Zhao, Pengfei and Wan, Xin",
-  journal   = "Advances in Management and Intelligent Technologies",
-  publisher = "Asia Pacific Science Publications Company Limited",
-  volume    =  1,
-  number    =  3,
-  month     =  jun,
-  year      =  2025
-}
-
-@ARTICLE{Zeng2025-ag,
-  title  = "{GraphMASAL}: A Graph-based Multi-Agent System for Adaptive Learning",
-  author = "Zeng, Biqing and Liu, Mengquan and Zhen, Zongwei",
-  year   =  2025
 }
 
 @INPROCEEDINGS{Abu-Rasheed2024-fl,
@@ -1386,6 +1360,109 @@
   year          =  2025,
   archivePrefix = "arXiv",
   primaryClass  = "cs.AI"
+}
+
+@ARTICLE{Dass2025-nv,
+  title         = "Improving procedural skill explanations via constrained
+                   generation: A symbolic-{LLM} hybrid architecture",
+  author        = "Dass, Rahul and Bowlin, Thomas and Li, Zebing and Jin, Xiao
+                   and Goel, Ashok",
+  journal       = "arXiv [cs.AI]",
+  abstract      = "In procedural skill learning, instructional explanations must
+                   convey not just steps, but the causal, goal-directed, and
+                   compositional logic behind them. Large language models (LLMs)
+                   often produce fluent yet shallow responses that miss this
+                   structure. We present Ivy, an AI coaching system that
+                   delivers structured, multi-step explanations by combining
+                   symbolic Task-Method-Knowledge (TMK) models with a generative
+                   interpretation layer-an LLM that constructs explanations
+                   while being constrained by TMK structure. TMK encodes causal
+                   transitions, goal hierarchies, and problem decompositions,
+                   and guides the LLM within explicit structural bounds. We
+                   evaluate Ivy against responses against GPT and
+                   retrieval-augmented GPT baselines using expert and
+                   independent annotations across three inferential dimensions.
+                   Results show that symbolic constraints consistently improve
+                   the structural quality of explanations for ``how'' and
+                   ``why'' questions. This study demonstrates a scalable AI for
+                   education approach that strengthens the pedagogical value of
+                   AI-generated explanations in intelligent coaching systems.",
+  month         =  nov,
+  year          =  2025,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.AI"
+}
+
+@ARTICLE{Zhao2025-mo,
+  title     = "Technical implementation of large Language Models in educational
+               scenarios: A case study of {DeepSeek}",
+  author    = "Zhao, Pengfei and Wan, Xin",
+  journal   = "Adv. manag. intell. technol.",
+  publisher = "Asia Pacific Science Publications Company Limited",
+  volume    =  1,
+  number    =  3,
+  abstract  = "Large Language Models (LLMs) present transformative potential for
+               education, yet their practical deployment faces persistent
+               challenges in domain knowledge adaptation, dynamic interaction
+               design, and ethics-compliance. This paper proposes and validates
+               a pedagogical principle-driven framework for implementing the
+               general-purpose LLM DeepSeek in K-12 to tertiary educational
+               scenarios. Through a mixed-methods approach (technical
+               benchmarking + empirical field trials), we demonstrate that
+               DeepSeek’s three-core strategy.(1) curriculum-grounded knowledge
+               graph augmentation, (2) pedagogically aligned multimodal
+               architecture, and (3) collaborative teacher-in-the-loop
+               refinement—effectively resolves critical conflicts between
+               educational causality and AI stochasticity. Furthermore, we
+               systematize domain-specific technical requirements, including:
+               Cross-modal alignment of symbolic-natural language systems (e.g.,
+               mathematical formalization), Sub-second dynamic feedback
+               efficiency (90\% (Δ+21.8\% vs. generic models), Student knowledge
+               retention by 22.4\% (p",
+  month     =  jun,
+  year      =  2025
+}
+
+@ARTICLE{Zeng2025-ag,
+  title         = "{GraphMASAL}: A Graph-based Multi-Agent System for Adaptive
+                   Learning",
+  author        = "Zeng, Biqing and Liu, Mengquan and Zhen, Zongwei",
+  journal       = "arXiv [cs.MA]",
+  abstract      = "The advent of Intelligent Tutoring Systems (ITSs) has marked
+                   a paradigm shift in education, enabling highly personalized
+                   learning pathways. However, true personalization requires
+                   adapting to learners' complex knowledge states (multi-source)
+                   and diverse goals (multi-sink); existing ITSs often lack the
+                   necessary structural-reasoning capability and knowledge
+                   dynamism to generate genuinely effective learning paths, and
+                   they lack scientifically rigorous validation paradigms. In
+                   this paper we propose GraphMASAL (A Graph-based Multi-Agent
+                   System for Adaptive Learning), which integrates (i) a dynamic
+                   knowledge graph for persistent, stateful learner modeling;
+                   (ii) a LangGraph-orchestrated trio of agents (Diagnostician,
+                   Planner, Tutor); (iii) a knowledge-graph-grounded two-stage
+                   neural IR component (dual-encoder dense retrieval with
+                   cross-encoder listwise re-ranking and calibrated score
+                   fusion); and (iv) a multi-source multi-sink (MSMS) planning
+                   engine with a cognitively grounded cost and an approximation
+                   guarantee via greedy set cover. Under blinded automated
+                   evaluations with matched inputs and inference settings across
+                   diverse student profiles, GraphMASAL consistently outperforms
+                   LLM prompting and structured ablations in planning--achieving
+                   stronger structural/sequence alignment of learning paths,
+                   higher coverage of weak concepts, and lower learning
+                   cost--while also surpassing prompt-based baselines in
+                   cognitive diagnosis. Agreement with expert/LLM-proxy ratings
+                   further supports the validity of our evaluation protocol.
+                   These findings indicate that grounding LLM agents in a
+                   dynamic knowledge graph, coupled with optimization under
+                   educational constraints, yields reliable, interpretable, and
+                   pedagogically plausible learning plans, advancing
+                   personalized and goal-oriented education.",
+  month         =  nov,
+  year          =  2025,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.MA"
 }
 
 @ARTICLE{Andjelkovic2015-yx,
