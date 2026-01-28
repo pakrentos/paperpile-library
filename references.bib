@@ -7498,13 +7498,17 @@
   year      =  2024
 }
 
-@ARTICLE{Wang2025-an,
-  title   = "{LLM}-powered Multi-agent Framework for Goal-oriented Learning in
-             Intelligent Tutoring System",
-  author  = "Wang, Tianfu and Zhan, Yi and Lian, Jianxun and Hu, Zhengyu and
-             Yuan, Nicholas Jing and Zhang, Qi and Xie, Xing and Xiong, Hui",
-  journal = "The Web Conference",
-  year    =  2025
+@INPROCEEDINGS{Wang2025-an,
+  title     = "{LLM}-powered multi-agent framework for goal-oriented learning in
+               intelligent tutoring system",
+  author    = "Wang, Tianfu and Zhan, Yi and Lian, Jianxun and Hu, Zhengyu and
+               Yuan, Nicholas Jing and Zhang, Qi and Xie, Xing and Xiong, Hui",
+  booktitle = "Companion Proceedings of the ACM on Web Conference 2025",
+  publisher = "ACM",
+  address   = "New York, NY, USA",
+  pages     = "510--519",
+  month     =  may,
+  year      =  2025
 }
 
 @INPROCEEDINGS{Ghoochani2025-fc,
@@ -7891,24 +7895,69 @@
   title     = "{GenAL}: Generative Agent for Adaptive Learning",
   author    = "Lv, Rui and Liu, Qi and Gao, Weibo and Zhang, Haotian and Lu,
                Junyu and Zhu, Linbo",
-  journal   = "Proceedings of the AAAI Conference on Artificial Intelligence",
+  journal   = "Proc. Conf. AAAI Artif. Intell.",
   publisher = "Association for the Advancement of Artificial Intelligence (AAAI)",
   volume    =  39,
   number    =  1,
   pages     = "577--585",
+  abstract  = "Adaptive learning, also known as adaptive teaching, relies on
+               learning path recommendations that sequentially suggest
+               personalized learning items (such as lectures and exercises) to
+               meet the unique needs of each learner. Despite the extensive
+               research in this field, previous approaches have primarily
+               modeled the interaction sequences between learners and items
+               using simple indexing, leading to three issues: (1) The
+               utilization of information from both learners and items is not
+               sufficient. For instance, these models are unable to leverage the
+               semantic information contained within the textual content of the
+               items. (2) Models need to be retrained on different datasets
+               separately, which makes it difficult to adapt to the continuously
+               expanding item pool in online educational scenarios. (3) The
+               existing recommendation paradigm based on trained reinforcement
+               learning frameworks, suffers from unstable recommendation
+               performance in sparse learning logs. To address these challenges,
+               we propose a generalized Generative Agent for Adaptive Learning
+               (GenAL), which integrates educational tools with LLMs' semantic
+               understanding to enable effective and generalizable learning path
+               recommendations across diverse data distributions. Specifically,
+               our framework consists of two components: the Global Thinking
+               Agent, which updates the learner profile and reflects on
+               recommendation outcomes based on the learner's historical
+               learning records. The other is the Local Teaching Agent, which
+               recommends items using educational prior knowledge. Leveraging
+               the LLM's robust semantic understanding, our framework does not
+               rely on item indexing but instead extracts relevant information
+               from the textual content. We evaluated our approach on three
+               real-world datasets, and the experimental results demonstrate
+               that our GenAL not only consistently outperforms all baselines
+               but also exhibits strong generalization ability.",
   month     =  apr,
   year      =  2025
 }
 
 @ARTICLE{Tabarsi2025-to,
-  title     = "Developing {LLM}-Powered Trustworthy Agents for Personalized
-               Learning Support",
+  title     = "Developing {LLM}-powered trustworthy agents for personalized
+               learning support",
   author    = "Tabarsi, Benyamin",
-  journal   = "Proceedings of the AAAI Conference on Artificial Intelligence",
+  journal   = "Proc. Conf. AAAI Artif. Intell.",
   publisher = "Association for the Advancement of Artificial Intelligence (AAAI)",
   volume    =  39,
   number    =  28,
   pages     = "29301--29302",
+  abstract  = "Large Language Models (LLMs) have shown promise in educational
+               applications, but challenges such as hallucinations, lack of
+               contextual relevance, and limited personalization impede their
+               practical adoption. To address these issues, my research
+               introduces MerryQuery, an LLM-powered educational agent that
+               integrates Retrieval-Augmented Generation (RAG), rule-based
+               content control, and Reinforcement Learning from Human Feedback
+               (RLHF). The system features a dynamic learning profile module for
+               adaptive personalization and a multi-step verification framework
+               that cross-checks responses against external sources to enhance
+               trustworthiness. A functional prototype of MerryQuery is being
+               piloted in a real-world classroom. Preliminary results
+               demonstrate improved response reliability and student
+               understanding.",
   month     =  apr,
   year      =  2025
 }
@@ -8798,11 +8847,41 @@
 }
 
 @ARTICLE{Yang2025-gk,
-  title   = "A Second-Classroom Personalized Learning Path Recommendation System
-             Based on Large Language Model Technology",
-  author  = "Yang, Qiankun and Liang, Changyong",
-  journal = "Applied Sciences",
-  year    =  2025
+  title     = "A second-classroom personalized learning path recommendation
+               system based on large language model technology",
+  author    = "Yang, Qiankun and Liang, Changyong",
+  journal   = "Appl. Sci. (Basel)",
+  publisher = "MDPI AG",
+  volume    =  15,
+  number    =  14,
+  pages     =  7655,
+  abstract  = "To address the limitations of existing learning path
+               recommendation methods—such as poor adaptability, weak
+               personalization, and difficulties in processing long sequences of
+               student behavior and interest data—this paper proposes a
+               personalized learning path recommendation system for the second
+               classroom based on large language model (LLM) technology, with a
+               focus on integrating the pre-trained model GPT-4. The goal is to
+               improve recommendation accuracy and personalization by leveraging
+               GPT-4’s strong long-sequence modeling capability. The system
+               fuses students’ multimodal data (e.g., physiological signals,
+               facial expressions, activity levels, and emotional states),
+               extracts deep features using GPT-4, and generates tailored
+               learning paths based on individual feature vectors. It also
+               incorporates incremental learning and self-attention mechanisms
+               to enable real-time feedback and dynamic adjustments. A
+               generative adversarial network (GAN) is introduced to enhance
+               diversity and innovation in recommendations. The experimental
+               results show that the system achieves a personalized
+               recommendation accuracy of over 92\%, with coverage and recall
+               rates exceeding 91\% and 93\%, respectively. Feedback adjustment
+               time remains within 1.5 s, outperforming mainstream models. This
+               study provides a novel and effective technical framework for
+               personalized learning in the second classroom, promoting both
+               efficient resource utilization and student development.",
+  month     =  jul,
+  year      =  2025,
+  language  = "en"
 }
 
 @ARTICLE{Chiarion2023-xy,
@@ -9521,11 +9600,32 @@
 }
 
 @ARTICLE{Meng2025-js,
-  title   = "Generative {LLM}-based distance education decision design in
-             Argentine universities",
-  author  = "Meng, Lingyan and Guo, Yeyuan",
-  journal = "Edelweiss Applied Science and Technology",
-  year    =  2025
+  title     = "Generative {LLM}-based distance education decision design in
+               Argentine universities",
+  author    = "Meng, Lingyan and Guo, Yeyuan",
+  journal   = "Edelweiss Applied Science and Technology",
+  publisher = "Learning Gate",
+  volume    =  9,
+  number    =  4,
+  pages     = "2587--2599",
+  abstract  = "As distance education in Argentine higher education expands
+               rapidly, decision-making systems must evolve to support
+               personalized, fair, and scalable learning pathways. Existing
+               recommendation tools often ignore curriculum dependencies,
+               student goals, and the pedagogical value of recommendations. This
+               paper proposes a generative LLM-based decision design that
+               integrates course knowledge graphs and student profiles into a
+               retrieval-augmented prompting framework. The system leverages
+               large language models (LLMs), particularly GPT-4, to generate
+               curriculum-aligned recommendations that support human-in-the-loop
+               educational decisions. A scoring mechanism ensures graph
+               consistency and prerequisite compliance, while experimental
+               evaluations demonstrate improvements in recommendation accuracy,
+               personalization, and fairness. The proposed approach offers a
+               flexible and context-aware decision support model suitable for
+               Latin American distance education institutions.",
+  month     =  apr,
+  year      =  2025
 }
 
 @ARTICLE{Dresler2012-vx,
