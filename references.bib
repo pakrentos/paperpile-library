@@ -927,17 +927,6 @@
   year      =  2024
 }
 
-@ARTICLE{Abu-Rasheed2024-hd,
-  title     = "Supporting Student Decisions on Learning Recommendations: An
-               {LLM}-Based Chatbot with Knowledge Graph Contextualization for
-               Conversational Explainability and Mentoring",
-  author    = "Abu-Rasheed, Hasan and Abdulsalam, Mohamad Hussam and Weber,
-               Christian and Fathi, Madjid",
-  journal   = "LAK Workshops",
-  publisher = "arXiv",
-  year      =  2024
-}
-
 @ARTICLE{Lin2025-uf,
   title     = "Learning Path Recommendation Enhanced by Knowledge Tracing and
                Large Language Model",
@@ -949,23 +938,6 @@
   pages     =  4385,
   month     =  nov,
   year      =  2025
-}
-
-@ARTICLE{Hu2024-fg,
-  title     = "{FOKE}: A Personalized and Explainable Education Framework
-               Integrating Foundation Models, Knowledge Graphs, and Prompt
-               Engineering",
-  author    = "Hu, Silan and Wang, Xiaoning",
-  journal   = "arXiv. org",
-  publisher = "arXiv",
-  year      =  2024
-}
-
-@ARTICLE{Xiong2025-lh,
-  title  = "{CLLMRec}: {LLM}-powered Cognitive-Aware Concept Recommendation via
-            Semantic Alignment and Prerequisite Knowledge Distillation",
-  author = "Xiong, Xiangrui and Lu, Yichuan and Pan, Zifei and Sun, Chang",
-  year   =  2025
 }
 
 @INPROCEEDINGS{Zhao2025-ow,
@@ -1268,6 +1240,123 @@
                    applications in specialized educational contexts.",
   month         =  sep,
   year          =  2025,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.AI"
+}
+
+@ARTICLE{Xiong2025-lh,
+  title         = "{CLLMRec}: {LLM}-powered cognitive-aware concept
+                   recommendation via Semantic Alignment and Prerequisite
+                   Knowledge Distillation",
+  author        = "Xiong, Xiangrui and Lu, Yichuan and Pan, Zifei and Sun, Chang",
+  journal       = "arXiv [cs.IR]",
+  abstract      = "The growth of Massive Open Online Courses (MOOCs) presents
+                   significant challenges for personalized learning, where
+                   concept recommendation is crucial. Existing approaches
+                   typically rely on heterogeneous information networks or
+                   knowledge graphs to capture conceptual relationships,
+                   combined with knowledge tracing models to assess learners'
+                   cognitive states. However, these methods face significant
+                   limitations due to their dependence on high-quality
+                   structured knowledge graphs, which are often scarce in
+                   real-world educational scenarios. To address this fundamental
+                   challenge, this paper proposes CLLMRec, a novel framework
+                   that leverages Large Language Models through two synergistic
+                   technical pillars: Semantic Alignment and Prerequisite
+                   Knowledge Distillation. The Semantic Alignment component
+                   constructs a unified representation space by encoding
+                   unstructured textual descriptions of learners and concepts.
+                   The Prerequisite Knowledge Distillation paradigm employs a
+                   teacher-student architecture, where a large teacher LLM
+                   (implemented as the Prior Knowledge Aware Component) extracts
+                   conceptual prerequisite relationships from its internalized
+                   world knowledge and distills them into soft labels to train
+                   an efficient student ranker. Building upon these foundations,
+                   our framework incorporates a fine-ranking mechanism that
+                   explicitly models learners' real-time cognitive states
+                   through deep knowledge tracing, ensuring recommendations are
+                   both structurally sound and cognitively appropriate.
+                   Extensive experiments on two real-world MOOC datasets
+                   demonstrate that CLLMRec significantly outperforms existing
+                   baseline methods across multiple evaluation metrics,
+                   validating its effectiveness in generating truly
+                   cognitive-aware and personalized concept recommendations
+                   without relying on explicit structural priors.",
+  month         =  nov,
+  year          =  2025,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.IR"
+}
+
+@ARTICLE{Hu2024-fg,
+  title         = "{FOKE}: A personalized and explainable education framework
+                   integrating foundation models, knowledge graphs, and prompt
+                   engineering",
+  author        = "Hu, Silan and Wang, Xiaoning",
+  journal       = "arXiv [cs.HC]",
+  abstract      = "Integrating large language models (LLMs) and knowledge graphs
+                   (KGs) holds great promise for revolutionizing intelligent
+                   education, but challenges remain in achieving
+                   personalization, interactivity, and explainability. We
+                   propose FOKE, a Forest Of Knowledge and Education framework
+                   that synergizes foundation models, knowledge graphs, and
+                   prompt engineering to address these challenges. FOKE
+                   introduces three key innovations: (1) a hierarchical
+                   knowledge forest for structured domain knowledge
+                   representation; (2) a multi-dimensional user profiling
+                   mechanism for comprehensive learner modeling; and (3) an
+                   interactive prompt engineering scheme for generating precise
+                   and tailored learning guidance. We showcase FOKE's
+                   application in programming education, homework assessment,
+                   and learning path planning, demonstrating its effectiveness
+                   and practicality. Additionally, we implement Scholar Hero, a
+                   real-world instantiation of FOKE. Our research highlights the
+                   potential of integrating foundation models, knowledge graphs,
+                   and prompt engineering to revolutionize intelligent education
+                   practices, ultimately benefiting learners worldwide. FOKE
+                   provides a principled and unified approach to harnessing
+                   cutting-edge AI technologies for personalized, interactive,
+                   and explainable educational services, paving the way for
+                   further research and development in this critical direction.",
+  month         =  may,
+  year          =  2024,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.HC"
+}
+
+@ARTICLE{Abu-Rasheed2024-hd,
+  title         = "Supporting student decisions on learning recommendations: An
+                   {LLM}-based chatbot with knowledge graph contextualization
+                   for conversational explainability and mentoring",
+  author        = "Abu-Rasheed, Hasan and Abdulsalam, Mohamad Hussam and Weber,
+                   Christian and Fathi, Madjid",
+  journal       = "arXiv [cs.AI]",
+  abstract      = "Student commitment towards a learning recommendation is not
+                   separable from their understanding of the reasons it was
+                   recommended to them; and their ability to modify it based on
+                   that understanding. Among explainability approaches, chatbots
+                   offer the potential to engage the student in a conversation,
+                   similar to a discussion with a peer or a mentor. The
+                   capabilities of chatbots, however, are still not sufficient
+                   to replace a human mentor, despite the advancements of
+                   generative AI (GenAI) and large language models (LLM).
+                   Therefore, we propose an approach to utilize chatbots as
+                   mediators of the conversation and sources of limited and
+                   controlled generation of explanations, to harvest the
+                   potential of LLMs while reducing their potential risks at the
+                   same time. The proposed LLM-based chatbot supports students
+                   in understanding learning-paths recommendations. We use a
+                   knowledge graph (KG) as a human-curated source of
+                   information, to regulate the LLM's output through defining
+                   its prompt's context. A group chat approach is developed to
+                   connect students with human mentors, either on demand or in
+                   cases that exceed the chatbot's pre-defined tasks. We
+                   evaluate the chatbot with a user study, to provide a
+                   proof-of-concept and highlight the potential requirements and
+                   limitations of utilizing chatbots in conversational
+                   explainability.",
+  month         =  jan,
+  year          =  2024,
   archivePrefix = "arXiv",
   primaryClass  = "cs.AI"
 }
