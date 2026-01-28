@@ -57,19 +57,6 @@
   year      =  2024
 }
 
-@ARTICLE{Wang2025-pa,
-  title     = "Synergizing Knowledge Graphs and {LLMs}: An Intelligent Tutoring
-               Model for Self-Directed Learning",
-  author    = "Wang, Guixia and Zhan, Zehui and Qin, Shouyuan",
-  journal   = "Education Sciences",
-  publisher = "MDPI AG",
-  volume    =  15,
-  number    =  9,
-  pages     =  1102,
-  month     =  aug,
-  year      =  2025
-}
-
 @ARTICLE{Dass2025-nv,
   title  = "Improving Procedural Skill Explanations via Constrained Generation:
             A Symbolic-{LLM} Hybrid Architecture",
@@ -149,13 +136,14 @@
 }
 
 @INPROCEEDINGS{Dong2025-yr,
-  title       = "How to Build an Adaptive {AI} Tutor for Any Course Using
-                 Knowledge Graph-Enhanced Retrieval-Augmented Generation
+  title       = "How to build an adaptive {AI} tutor for any course using
+                 knowledge graph-enhanced retrieval-augmented generation
                  ({KG}-{RAG})",
   author      = "Dong, Chenxi and Yuan, Yimin and Chen, Kan and Cheng, Shupei
                  and Wen, Chujie",
   booktitle   = "2025 14th International Conference on Educational and
                  Information Technology (ICEIT)",
+  publisher   = "IEEE",
   institution = "IEEE",
   pages       = "152--157",
   month       =  mar,
@@ -213,15 +201,6 @@
   pages       = "1610--1616",
   month       =  may,
   year        =  2025
-}
-
-@ARTICLE{Cho2024-dx,
-  title     = "A Systematic Review of Knowledge Tracing and Large Language
-               Models in Education: Opportunities, Issues, and Future Research",
-  author    = "Cho, Yongwan and AlMamlook, Rabia Emhamed and Gharaibeh, Tasnim",
-  journal   = "arXiv. org",
-  publisher = "arXiv",
-  year      =  2024
 }
 
 @ARTICLE{Figueiredo2025-un,
@@ -947,19 +926,6 @@
   year      =  2024
 }
 
-@ARTICLE{Yang2025-xb,
-  title     = "{ARGUS}: A Neuro-Symbolic System Integrating {GNNs} and {LLMs}
-               for Actionable Feedback on English Argumentative Writing",
-  author    = "Yang, Lei and Zhao, Shuo",
-  journal   = "Systems",
-  publisher = "MDPI AG",
-  volume    =  13,
-  number    =  12,
-  pages     =  1079,
-  month     =  dec,
-  year      =  2025
-}
-
 @ARTICLE{Abu-Rasheed2024-hd,
   title     = "Supporting Student Decisions on Learning Recommendations: An
                {LLM}-Based Chatbot with Knowledge Graph Contextualization for
@@ -1116,6 +1082,141 @@
   month     =  nov,
   year      =  2025,
   language  = "en"
+}
+
+@ARTICLE{Yang2025-xb,
+  title     = "{ARGUS}: A neuro-symbolic system integrating {GNNs} and {LLMs}
+               for actionable feedback on English argumentative writing",
+  author    = "Yang, Lei and Zhao, Shuo",
+  journal   = "Systems",
+  publisher = "MDPI AG",
+  volume    =  13,
+  number    =  12,
+  pages     =  1079,
+  abstract  = "English argumentative writing is a cornerstone of academic and
+               professional communication, yet it remains a significant
+               challenge for second-language (L2) learners. While Large Language
+               Models (LLMs) show promise as components in automated feedback
+               systems, their responses are often generic and lack the
+               structural insight necessary for meaningful improvement. Existing
+               Automated Essay Scoring (AES) systems, conversely, typically
+               provide holistic scores without the kind of actionable,
+               fine-grained advice that can guide concrete revisions. To bridge
+               this systemic gap, we introduce ARGUS (Argument Understanding and
+               Structured-feedback), a novel neuro-symbolic system that
+               synergizes the semantic understanding of LLMs with the structured
+               reasoning of Graph Neural Networks (GNNs). The ARGUS system
+               architecture comprises three integrated modules: (1) an LLM-based
+               parser transforms an essay into a structured argument graph; (2)
+               a Relational Graph Convolutional Network (R-GCN) analyzes this
+               symbolic structure to identify specific logical and structural
+               flaws; and (3) this flaw analysis directly guides a conditional
+               LLM to generate feedback that is not only contextually relevant
+               but also pinpoints precise weaknesses in the student’s reasoning.
+               We evaluate ARGUS on the Argument Annotated Essays corpus and on
+               an additional set of 150 L2 persuasive essays collected from the
+               same population to augment training of both the parser and the
+               structural flaw detector. Our argument parsing module achieves a
+               component identification F1-score of 90.4\% and a relation
+               identification F1-score of 86.1\%. The R-GCN-based structural
+               flaw detector attains a macro-averaged F1-score of 0.83 across
+               the seven flaw categories, indicating that the enriched training
+               data substantially improves its generalization. Most importantly,
+               in a human evaluation study, feedback generated by the ARGUS
+               system was rated as consistently and significantly more specific,
+               accurate, actionable, and helpful than that from strong
+               baselines, including a fine-tuned LLM and a zero-shot GPT-4. Our
+               work demonstrates a robust systems engineering approach,
+               grounding LLM-based feedback in GNN-driven structural analysis to
+               create an intelligent teaching system that provides targeted,
+               pedagogically valuable guidance for L2 student writers engaging
+               with persuasive essays.",
+  month     =  dec,
+  year      =  2025,
+  language  = "en"
+}
+
+@ARTICLE{Wang2025-pa,
+  title     = "Synergizing knowledge graphs and {LLMs}: An intelligent tutoring
+               model for self-directed learning",
+  author    = "Wang, Guixia and Zhan, Zehui and Qin, Shouyuan",
+  journal   = "Educ. Sci. (Basel)",
+  publisher = "MDPI AG",
+  volume    =  15,
+  number    =  9,
+  pages     =  1102,
+  abstract  = "General large language models (LLMs) often suffer from semantic
+               misinterpretation, information redundancy, and hallucinated
+               content when applied to educational question-answering tasks.
+               These issues hinder their effectiveness in supporting students’
+               specialized course learning and self-directed study. To address
+               these challenges, this study proposes an intelligent tutoring
+               model that integrates a knowledge graph with a large language
+               model (KG-CQ). Focusing on the Data Structures (C Language)
+               course, the model constructs a course-specific knowledge graph
+               stored in a Neo4j graph database. It incorporates modules for
+               knowledge retrieval, domain-specific question answering, and
+               knowledge extraction, forming a closed-loop system designed to
+               enhance semantic comprehension and domain adaptability. A total
+               of 30 students majoring in Educational Technology at H University
+               were randomly assigned to either an experimental group or a
+               control group, with 15 students in each. The experimental group
+               utilized the KG-CQ model during the answering process, while the
+               control group relied on traditional learning methods. A total of
+               1515 data points were collected. Experimental results show that
+               the KG-CQ model performs well in both answer accuracy and domain
+               relevance, accompanied by high levels of student satisfaction.
+               The model effectively promotes self-directed learning and
+               provides a valuable reference for the development of
+               knowledge-enhanced question-answering systems in educational
+               settings.",
+  month     =  aug,
+  year      =  2025,
+  language  = "en"
+}
+
+@ARTICLE{Cho2024-dx,
+  title         = "A systematic review of knowledge Tracing and Large Language
+                   Models in education: Opportunities, issues, and future
+                   research",
+  author        = "Cho, Yongwan and AlMamlook, Rabia Emhamed and Gharaibeh,
+                   Tasnim",
+  journal       = "arXiv [cs.CY]",
+  abstract      = "Knowledge Tracing (KT) is a research field that aims to
+                   estimate a student's knowledge state through learning
+                   interactions-a crucial component of Intelligent Tutoring
+                   Systems (ITSs). Despite significant advancements, no current
+                   KT models excel in both predictive accuracy and
+                   interpretability. Meanwhile, Large Language Models (LLMs),
+                   pre-trained on vast natural language datasets, have emerged
+                   as powerful tools with immense potential in various
+                   educational applications. This systematic review explores the
+                   intersections, opportunities, and challenges of combining KT
+                   models and LLMs in educational contexts. The review first
+                   investigates LLM applications in education, including their
+                   adaptability to domain-specific content and ability to
+                   support personalized learning. It then examines the
+                   development and current state of KT models, from traditional
+                   to advanced approaches, aiming to uncover potential
+                   challenges that LLMs could mitigate. The core of this review
+                   focuses on integrating LLMs with KT, exploring three primary
+                   functions: addressing general concerns in KT fields,
+                   overcoming specific KT model limitations, and performing as
+                   KT models themselves. Our findings reveal that LLMs can be
+                   customized for specific educational tasks through
+                   tailor-making techniques such as in-context learning and
+                   agent-based approaches, effectively managing complex and
+                   unbalanced educational data. These models can enhance
+                   existing KT models' performance and solve cold-start problems
+                   by generating relevant features from question data. However,
+                   both current models depend heavily on structured, limited
+                   datasets, missing opportunities to use diverse educational
+                   data that could offer deeper insights into individual
+                   learners and support various educational settings.",
+  month         =  dec,
+  year          =  2024,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CY"
 }
 
 @ARTICLE{Andjelkovic2015-yx,
